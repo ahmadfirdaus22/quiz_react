@@ -1,0 +1,67 @@
+body{
+    background-color: #282c34;
+  }
+  .App {
+    text-align: center;
+    margin: 20px;
+    margin-left: 100px;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .Calculator{
+    background-color: aqua;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 40%;
+    text-align: center;
+    
+  }
+  
+.Calculator button{
+    background-color: lightskyblue;
+    font-size: Large;
+    border: 3px solid lightskyblue;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    width: 95%;
+  }
+
+.Calculator button:hover{
+    background-color: white;
+    color: lightskyblue;
+}
+
+table{
+    margin-top: 2%;
+    font-size: 20px;
+    border-spacing: 4px;
+}
+
+table input{
+    width: 25vw;
+    height: 2v;
+    font-size: 20px;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.grade{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
